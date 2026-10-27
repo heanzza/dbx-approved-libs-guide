@@ -1,0 +1,11 @@
+{
+  "network_policy_id": "approved-libs-only",
+  "egress": {
+    "network_access": {
+      "restriction_mode": "RESTRICTED_ACCESS",
+      "allowed_internet_destinations": [],
+      "allowed_storage_destinations": [],
+      "policy_enforcement": {"enforcement_mode": "ENFORCED"}
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "data_security_mode": {"type": "fixed", "value": "USER_ISOLATION"},
+  "autotermination_minutes": {"type": "range", "maxValue": 120, "defaultValue": 60}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "approved-lib-build",
+  "tasks": [
+    {
+      "task_key": "pull",
+      "notebook_task": {
+        "notebook_path": "/Workspace/approved-libs/_admin/pull_git_folder",
+        "base_parameters": {"repo_path": "/Workspace/approved-libs/<Git フォルダ名>"}
+      }
+    },
+    {
+      "task_key": "build",
+      "depends_on": [{"task_key": "pull"}],
+      "notebook_task": {
+        "notebook_path": "/Workspace/approved-libs/_admin/build_wheel",
+        "base_parameters": {
+          "src": "/Workspace/approved-libs/<Git フォルダ名>",
+          "dest": "/Volumes/<カタログ>/lib_mgmt/approved_wheels"
+        }
+      }
+    }
+  ],
+  "max_concurrent_runs": 1
+}

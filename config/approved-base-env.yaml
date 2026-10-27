@@ -1,0 +1,5 @@
+# ワークスペースのベース環境（Serverless・手順4）
+# ライブラリを追加するときは dependencies に行を追加する
+environment_version: "4"
+dependencies:
+  - /Volumes/<カタログ>/lib_mgmt/approved_wheels/<ライブラリ名>-0.1.0-py3-none-any.whl
