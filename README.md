@@ -21,7 +21,13 @@ PyPI・GitHub など ── 遮断（Serverless：ネットワークポリシー
 
 ## 手順書
 
-**[docs/setup-guide.md](docs/setup-guide.md)**：画面操作つきの設定手順（Serverless・Classic）
+画面操作つきの設定手順（Serverless・Classic）
+
+| 形式 | ファイル |
+|---|---|
+| Markdown（GitHub 上で閲覧） | [docs/setup-guide.md](docs/setup-guide.md) |
+| PDF | [docs/setup-guide.pdf](docs/setup-guide.pdf) |
+| Word | [docs/setup-guide.docx](docs/setup-guide.docx) |
 
 ## サンプル
 
